@@ -60,6 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{(season.to_s).capitalize}:"
     holiday_data.each do |holiday_name, supplies|
       holi_var = (holiday_name.to_s).split
+      binding.pry
       holi_var.each do |element|
         element.capitalize!
       end
