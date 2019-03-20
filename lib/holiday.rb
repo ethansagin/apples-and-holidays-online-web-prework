@@ -63,7 +63,8 @@ def all_supplies_in_holidays(holiday_hash)
       holi_var.each do |element|
         element.capitalize!
       end
-      puts "#{holi_var.to_s}: #{supplies.join(" ")}"
+      holi_var.to_s
+      puts "#{holi_var}: #{supplies.join(" ")}"
       
     end
   end
@@ -82,10 +83,3 @@ def all_holidays_with_bbq(holiday_hash)
   end
   bbq_array
 end
-
-
-
-
-
-
-
