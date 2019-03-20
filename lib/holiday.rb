@@ -63,8 +63,8 @@ def all_supplies_in_holidays(holiday_hash)
       holi_var.each do |element|
         element.capitalize!
       end
-      binding.pry
       holi_var.to_s
+      binding.pry
       puts "#{holi_var}: #{supplies.join(" ")}"
       
     end
